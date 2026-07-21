@@ -33,7 +33,7 @@ jobs:
       run: docker ps
 
     - name: Health Check
-      run: curl --fail http://localhost:8080/health.php
+      run: curl --fail http://localhost:8080/healthx.php
 
     - name: Stop Containers
       if: always()
